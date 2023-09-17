@@ -20,7 +20,7 @@ coroutine.resume(Thread3)
 
 --Thread4
 local Thread4 = coroutine.create(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Fullbright.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Chams.lua'))()
 end)
 coroutine.resume(Thread4)
 
