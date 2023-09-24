@@ -81,6 +81,9 @@ userInputService.InputBegan:Connect(function(inputObject, gameProcessedEvent)
         checkHeads() -- Update all heads 
     elseif keyCode == Enum.KeyCode.F then -- Keybind
         settings.headScale = Vector3.new(13, 13, 13) -- Units
+        checkHeads() -- Update all heads
+    elseif keyCode == Enum.KeyCode.V then -- Keybind
+        settings.headScale = Vector3.new(17, 17, 17) -- Units
         checkHeads() -- Update all heads 
     end
 end)
