@@ -1,6 +1,5 @@
--- Settings --
-local s = {f=Color3.fromRGB(255,255,255);t=.75;o=Color3.fromRGB(255,255,255);p=0;}
--- Script --
+local s = {f=Color3.fromRGB(74, 136, 197);t=.75;o=Color3.fromRGB(74, 136, 197);p=0;}
+
 local p = game:service'Players'.LocalPlayer
 local h = Instance.new('Folder', game:service'CoreGui')
 local function a(o)
@@ -20,7 +19,7 @@ end
 local function b(o)
     if o:IsA'Model' and o.Parent.Name ~= tostring(p.TeamColor) then
         local h = o:FindFirstChild("Head")
-        local t = o:FindFirstChild("Torso") or o:FindFirstChild("UpperTorso")
+        local t = o:FindFirstChild("Torso")
         if h and t then
             a(h)
             a(t)
