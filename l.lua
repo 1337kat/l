@@ -35,3 +35,9 @@ local Thread6 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Armour%20Indicator.lua'))()
 end)
 coroutine.resume(Thread6)
+
+--Thread7
+local Thread7 = coroutine.create(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VenomScriptsV/ts/main/0.1", true))()
+end)
+coroutine.resume(Thread7)
