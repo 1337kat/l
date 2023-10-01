@@ -1,6 +1,6 @@
 -- Settings
 local settings = {
-    headScale = Vector3.new(5, 5, 5)
+    headScale = Vector3.new(1, 1, 1)
 }
 
 -- Variables
