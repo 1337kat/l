@@ -4,7 +4,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Keybin
 end)
 coroutine.resume(Thread1)
 
-
 --Thread2
 local Thread2 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Fullbright.lua'))()
@@ -17,14 +16,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Crossh
 end)
 coroutine.resume(Thread3)
 
-
 --Thread4
 local Thread4 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Chams.lua'))()
 end)
 coroutine.resume(Thread4)
---RemovedInfYield
 
+--RemovedInfYield
 --Thread6
 local Thread6 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Armour%20Indicator.lua'))()
