@@ -4,11 +4,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Keybin
 end)
 coroutine.resume(Thread1)
 
---Thread2
-local Thread2 = coroutine.create(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Fullbright.lua'))()
-end)
-coroutine.resume(Thread2)
+--RemovedFullBrightness
 
 --Thread3
 local Thread3 = coroutine.create(function()
@@ -23,6 +19,7 @@ end)
 coroutine.resume(Thread4)
 
 --RemovedInfYield
+
 --Thread6
 local Thread6 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Armour%20Indicator.lua'))()
