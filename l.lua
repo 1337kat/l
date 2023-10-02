@@ -18,7 +18,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Chams.
 end)
 coroutine.resume(Thread4)
 
---RemovedInfYield
+--Thread5
+local Thread5 = coroutine.create(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Freecam'))()
+end)
+coroutine.resume(Thread5)
 
 --Thread6
 local Thread6 = coroutine.create(function()
