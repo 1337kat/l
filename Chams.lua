@@ -1,4 +1,4 @@
-local s = {f=Color3.fromRGB(74, 136, 197);t=.75;o=Color3.fromRGB(74, 136, 197);p=0;}
+local s = {f=Color3.fromRGB(0, 255, 0);t=.99;o=Color3.fromRGB(0, 255, 0);p=0;}
 
 local p = game:service'Players'.LocalPlayer
 local h = Instance.new('Folder', game:service'CoreGui')
