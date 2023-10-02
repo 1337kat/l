@@ -19,10 +19,8 @@ end
 local function b(o)
     if o:IsA'Model' and o.Parent.Name ~= tostring(p.TeamColor) then
         local h = o:FindFirstChild("Head")
-        local t = o:FindFirstChild("Torso")
         if h and t then
             a(h)
-            a(t)
         end
     end
 end
