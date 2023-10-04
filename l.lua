@@ -1,3 +1,5 @@
+--Original Script
+
 --Thread1
 local Thread1 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Keybind%20hitbox.lua'))()
