@@ -17,6 +17,6 @@ coroutine.resume(Thread4)
 
 --Thread4
 local Thread5 = coroutine.create(function()
-loadstring(game:HttpGet('https://github.com/1337kat/l/blob/main/Fullbright.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Fullbright.lua'))()
 end)
 coroutine.resume(Thread5)
