@@ -8,7 +8,7 @@ coroutine.resume(Thread1)
 
 --Thread2
 local Thread2 = coroutine.create(function()
-loadstring(game:HttpGet('https://github.com/1337kat/l/blob/main/Fullbright.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Fullbright.lua'))()
 end)
 coroutine.resume(Thread2)
 
