@@ -9,7 +9,7 @@ local function makeAdornment(part)
     adornment.ZIndex = 1
     adornment.Size = part.Size
     adornment.Color = BrickColor.new("Bright red")
-    adornment.Transparency = 0.1
+    adornment.Transparency = 0.69
     adornment.Parent = part
     table.insert(adornments, adornment) 
 end
@@ -29,12 +29,3 @@ for i,v in pairs(game.Workspace:GetChildren()) do
         end
     end
 end
-
-uis.InputBegan:Connect(function(input, gp)
-    if not gp and input.KeyCode == Enum.KeyCode.V then 
-        _G.Enabled = not _G.Enabled 
-        for i,v in pairs(adornments) do 
-            v.Transparency = _G.Enabled and 0.1 or 0.1
-        end
-    end
-end)
