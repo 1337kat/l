@@ -13,7 +13,7 @@ for _, Model in pairs(workspace:GetChildren()) do
         if Head then
             DrawingAPI[Model] = Drawing.new("Text")
             DrawingAPI[Model].Visible = false
-            DrawingAPI[Model].Size = 20
+            DrawingAPI[Model].Size = 27
             DrawingAPI[Model].Center = true
             DrawingAPI[Model].Outline = true
         end
@@ -45,7 +45,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
             if OnScreen then
                 Text.Visible = true
                 Text.Position = Vector2.new(ScreenPosition.X, ScreenPosition.Y)
-                Text.Text = CheckSteelHelmet(Model) and "SteelHelmet" or "Player"
+                Text.Text = CheckSteelHelmet(Model) and "SteelHelmet" or "X"
                 Text.Color = Color3.new(1, 1, 1)
             else
                 Text.Visible = false
