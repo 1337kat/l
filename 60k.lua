@@ -5,15 +5,9 @@ end)
 coroutine.resume(Thread1)
 
 local Thread3 = coroutine.create(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Keybind%20hitbox.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/TransparentHeadKeybind.lua'))()
 end)
 coroutine.resume(Thread3)
-
---Thread4
-local Thread4 = coroutine.create(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Chams.lua'))()
-end)
-coroutine.resume(Thread4)
 
 --Thread4
 local Thread5 = coroutine.create(function()
