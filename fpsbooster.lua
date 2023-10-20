@@ -24,7 +24,7 @@ for i, v in pairs(g:GetDescendants()) do
         v.BlastRadius = 0
     elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
         v.Enabled = false
-    elseif v:IsA("") then
+    elseif v:IsA("MeshPart") then
         v.Material = "Plastic"
         v.Reflectance = 0
         v.TextureID = 10385902758728957
