@@ -32,3 +32,9 @@ local Thread7 = coroutine.create(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1337kat/l/main/Crosshair.lua'))()
 end)
 coroutine.resume(Thread7)
+
+--Thread8
+local Thread8 = coroutine.create(function()
+https://raw.githubusercontent.com/1337kat/l/main/V%20neck.lua
+end)
+coroutine.resume(Thread8)
