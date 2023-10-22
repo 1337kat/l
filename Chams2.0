@@ -8,8 +8,8 @@ local function makeAdornment(part)
     adornment.AlwaysOnTop = true
     adornment.ZIndex = 1
     adornment.Size = part.Size
-    adornment.Color = BrickColor.new("Bright red")
-    adornment.Transparency = 0.69
+    adornment.Color = BrickColor.new("Bright green")
+    adornment.Transparency = 0.10
     adornment.Parent = part
     table.insert(adornments, adornment) 
 end
